@@ -1,0 +1,27 @@
+{
+  "name": "chessRoom",
+  "version": "0.0.1",
+  "description": "server part of chess",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext .ts,.tsx ."
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/redis": "^2.8.31",
+    "@types/socket.io": "^1.4.38",
+    "errorhandler": "^1.5.1",
+    "express": "^4.16.3",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.5",
+    "eslint": "^7.31.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.0.3"
+  }
+}
